@@ -1,0 +1,12 @@
+read_verilog mult.v
+synth -top mult
+
+flatten
+
+dfflibmap -liberty /home/lucid/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty /home/lucid/OpenROAD-flow-scripts/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
+
+opt_clean
+write_verilog synthesized_design.v
+
+show
