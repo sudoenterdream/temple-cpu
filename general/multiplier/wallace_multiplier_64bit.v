@@ -1,4 +1,4 @@
-module mult(
+module WallaceMultiplier64Bit(
   input  [63:0] a,  // 64-bit input a
   input  [63:0] b,  // 64-bit input b
   output [127:0] s1, // 128-bit output s1

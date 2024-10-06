@@ -1,5 +1,5 @@
-read_verilog mult.v
-synth -top mult
+read_verilog brent_kung_adder_64bit.v
+synth -top BrentKungAdder64Bit
 
 flatten
 

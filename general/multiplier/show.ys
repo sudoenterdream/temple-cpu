@@ -1,5 +1,5 @@
-read_verilog comp.v
-synth -top comp
+read_verilog wallace_multiplier_64bit.v
+synth -top WallaceMultiplier64Bit
 
 flatten
 

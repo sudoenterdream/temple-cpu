@@ -1,4 +1,4 @@
-module bka(
+module BrentKungAdder64Bit(
     input [63:0] a,          // 64-bit input a
     input [63:0] b,          // 64-bit input b
     input cin,
